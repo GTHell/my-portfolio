@@ -4,15 +4,16 @@
 	import './styles.css';
 </script>
 
-<div class="app">
+<div class="app bg-hero-pattern bg-slate-500 bg-opacity-100">
 	<Header />
 
-	<main>
+	<!-- <main class="container mx-auto my-0 flex-1 flex-col max-w-[64rem] py-4"> -->
+	<main class="container mx-auto my-0 flex-1 flex-col">
 		<slot />
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Made with <a href="https://kit.svelte.dev">kit.svelte.dev</a> :) </p>
 	</footer>
 </div>
 
@@ -23,7 +24,7 @@
 		min-height: 100vh;
 	}
 
-	main {
+	/* main {
 		flex: 1;
 		display: flex;
 		flex-direction: column;
@@ -32,7 +33,7 @@
 		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
-	}
+	} */
 
 	footer {
 		display: flex;
