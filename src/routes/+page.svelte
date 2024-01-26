@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Oudamsith Samin</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 

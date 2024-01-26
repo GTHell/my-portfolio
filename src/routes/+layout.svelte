@@ -2,6 +2,8 @@
 	import '../app.css';
 	import Header from './Header.svelte';
 	import './styles.css';
+
+	export const prerender = true;
 </script>
 
 <div class="app bg-hero-pattern bg-slate-500 bg-opacity-100">

@@ -40,23 +40,25 @@
 
 </script>
 
-<ul>
-	<!-- <h1 class="underline-offset-8 underline text-center md:text-left  w-full font-bold text-4xl leading-5 mb-4">Work Experience</h1> -->
-	<h1 class="bg-blue-500 text-white  text-center w-full font-bold text-4xl leading-5 mb-4 p-4">Work Experience</h1>
-	{#each work_experience as experience  (experience.year)}
-	<li>
-		<article>
-			<div class="grid p-4 overflow-hidden md:grid-cols-5 rounded-xl lg:p-6 xl:grid-cols-12">
-				<h3 class="mb-1 ml-8 font-semibold md:col-start-2 md:col-span-4 md:ml-0 xl:col-start-3 xl:col-span-9">{ experience.title }</h3>
-				<time datetime="" class="row-start-1 mb-1 md:col-start-1 xl:col-span-2 dark:text-gray-400">{ experience.year }</time>
+<div class="w-full">
+	<ul>
+		<!-- <h1 class="underline-offset-8 underline text-center md:text-left  w-full font-bold text-4xl leading-5 mb-4">Work Experience</h1> -->
+		<h1 class="bg-blue-500 text-white  text-center w-full font-bold text-4xl leading-5 mb-4 p-4">Work Experience</h1>
+		{#each work_experience as experience  (experience.year)}
+		<li>
+			<article>
+				<div class="grid p-4 overflow-hidden md:grid-cols-5 rounded-xl lg:p-6 xl:grid-cols-12">
+					<h3 class="mb-1 ml-8 font-semibold md:col-start-2 md:col-span-4 md:ml-0 xl:col-start-3 xl:col-span-9">{ experience.title }</h3>
+					<time datetime="" class="row-start-1 mb-1 md:col-start-1 xl:col-span-2 dark:text-gray-400">{ experience.year }</time>
 
-				<ul class="list-disc md:col-start-2 md:col-span-4 xl:col-start-3 xl:col-span-9 md:ml-0">
-				{#each experience.description as description}
-					<li class="ml-8 mb-2  dark:text-gray-300">{ description }</li>
-				{/each}
-				</ul>
-			</div>
-		</article>
-	</li>
-	{/each}
-</ul>
+					<ul class="list-disc md:col-start-2 md:col-span-4 xl:col-start-3 xl:col-span-9 md:ml-0">
+					{#each experience.description as description}
+						<li class="ml-8 mb-2  dark:text-gray-300">{ description }</li>
+					{/each}
+					</ul>
+				</div>
+			</article>
+		</li>
+		{/each}
+	</ul>
+</div>
