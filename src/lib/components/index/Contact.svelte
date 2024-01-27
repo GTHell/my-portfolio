@@ -1,7 +1,7 @@
-<div class="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
+<div class="grid grid-cols-1 px-6 mx-auto lg:px-8 md:divide-x">
 	<div class="py-6 md:py-0 md:px-6">
 		<h1 class="text-4xl font-bold">Contact Me</h1>
-		<p class="pt-2 pb-4">Fill in the form and let have a chat coffee chat</p>
+		<p class="pt-2 pb-4">Let have a chat coffee chat</p>
 		<div class="space-y-4">
 			<p class="flex items-center">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-2 sm:mr-6">

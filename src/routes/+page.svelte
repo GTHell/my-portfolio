@@ -23,6 +23,11 @@
 	<AboutMe />
 </Section>
 
+<!-- Portfolio -->
+<Section class="p-4 md:p-8">
+	<Project />
+</Section>
+
 <Section class="p-4 md:p-8">
 	<!-- Skills -->
 	<Skills />
@@ -31,11 +36,6 @@
 <!-- Experience -->
 <Section class="p-4 md:p-8">
     <WorkExperience />
-</Section>
-
-<!-- Portfolio -->
-<Section class="p-4 md:p-8">
-	<Project />
 </Section>
 
 <!-- More about me -->
