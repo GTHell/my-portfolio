@@ -48,7 +48,7 @@
 	<h1 class="bg-blue-500 text-white  text-center  w-full font-bold text-4xl leading-5 mb-4 p-4">Skills</h1>
 	<div class="w-full mb-2">
 
-		<article class="prose text-white font-normal">
+		<article class="text-white font-normal">
 			<p>I don't have much of a preference for a language. I find each language to be best fitted suit for its use case. I mainly use Python because 
 				it's versaltile and getting I want done faster. Although, I prefer Javascript for its TypeScript, I don't think it has enough tools to do most of the stuff that I want.</p>
 		</article>

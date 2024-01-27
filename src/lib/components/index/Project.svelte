@@ -87,7 +87,7 @@
 
 	<h1 class="bg-blue-500 text-white  text-center w-full font-bold text-4xl leading-5 mb-4 p-4">My Works</h1>
 
-	<article class="text-white prose w-full">
+	<article class="text-white w-full">
 		<p>I have worked on many projects. These are some of my works that I try to visualize and put on display.</p>
 	</article>
 
