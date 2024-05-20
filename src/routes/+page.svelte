@@ -3,6 +3,7 @@
 	import AboutMe from '$lib/components/index/AboutMe.svelte';
 	import Skills from '$lib/components/index/Skills.svelte';
 	import WorkExperience from '$lib/components/index/WorkExperience.svelte';
+	import Hobbies from '$lib/components/index/Hobbies.svelte';
 	// import Education from '$lib/components/index/Education.svelte';
 	import Projects from '$lib/components/index/Project.svelte';
 	import Section from '$lib/components/index/Section.svelte';
@@ -33,9 +34,14 @@
 	<Skills />
 </Section>
 
+<Section class="p-4 md:p-8">
+	<!-- Skills -->
+	<Hobbies />
+</Section>
+
 <!-- Experience -->
 <Section class="p-4 md:p-8">
-    <WorkExperience />
+	<WorkExperience />
 </Section>
 
 <!-- More about me -->
